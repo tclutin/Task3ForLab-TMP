@@ -17,7 +17,7 @@ namespace Lab4.Algorithm.Sort
         public void InsertionSort(string[] array)
         {
             int n = array.Length;
-            for (int i = 1; i < n; ++i)
+            for (int i = 1; i < n; i++)
             {
                 string key = array[i];
                 int j = i - 1;
